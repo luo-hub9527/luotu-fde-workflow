@@ -1,0 +1,68 @@
+{
+  "repository": "https://github.com/suboss87/FDEOps",
+  "ref": "Main",
+  "commit": "30e3f6c92dadbc013337e7ebdae14087d43bd126",
+  "committed_at": "2026-10-21T00:35:59Z",
+  "files": [
+    {
+      "path": "LICENSE",
+      "git_blob": "e01079401553929f053bbc7cbe72125056f13fb2",
+      "sha256": "12983cd6fb4dbfe5134963e38a18ca52a52b255004c1029ce7ea59648edfd54c",
+      "source_url": "https://raw.githubusercontent.com/suboss87/FDEOps/30e3f6c92dadbc013337e7ebdae14087d43bd126/LICENSE"
+    },
+    {
+      "path": "skills/fde/SKILL.md",
+      "git_blob": "eef46d75127453cfb380774f880783ad6333ca3e",
+      "sha256": "1b1978b86b74f95ae6242d2ee5ad51c18b185a8dcccf588697e75e3cad2d2740",
+      "source_url": "https://raw.githubusercontent.com/suboss87/FDEOps/30e3f6c92dadbc013337e7ebdae14087d43bd126/skills/fde/SKILL.md"
+    },
+    {
+      "path": "skills/fde/references/build.md",
+      "git_blob": "538d5eaaf360376fb99f031e9edd89be19854b5e",
+      "sha256": "daaa7be30ce6e4c42715dc708f877ab1d2270df0dffdcc33680085450b9f0b2f",
+      "source_url": "https://raw.githubusercontent.com/suboss87/FDEOps/30e3f6c92dadbc013337e7ebdae14087d43bd126/skills/fde/references/build.md"
+    },
+    {
+      "path": "skills/fde/references/business-case.md",
+      "git_blob": "472452e5bdb6663bde8ac4b89f82395a7069a8fa",
+      "sha256": "32e000e8351cd59f9eaad8be40babb276df69948ea4f81e01a4672e47f48cb25",
+      "source_url": "https://raw.githubusercontent.com/suboss87/FDEOps/30e3f6c92dadbc013337e7ebdae14087d43bd126/skills/fde/references/business-case.md"
+    },
+    {
+      "path": "skills/fde/references/hold-scope.md",
+      "git_blob": "d6001de202a3c79646135c288805106bd2033878",
+      "sha256": "651ba25570401ceda8dc518d1037f1644ee09a0166609b93d437164e4dc45837",
+      "source_url": "https://raw.githubusercontent.com/suboss87/FDEOps/30e3f6c92dadbc013337e7ebdae14087d43bd126/skills/fde/references/hold-scope.md"
+    },
+    {
+      "path": "skills/fde/references/land.md",
+      "git_blob": "16226af4ec51241f81226f245dd78eaa99b9d5c6",
+      "sha256": "f33f1b9e03a3c23c39ffce925a8f8b956b48a53982f55246752a48a317cb084d",
+      "source_url": "https://raw.githubusercontent.com/suboss87/FDEOps/30e3f6c92dadbc013337e7ebdae14087d43bd126/skills/fde/references/land.md"
+    },
+    {
+      "path": "skills/fde/references/poc.md",
+      "git_blob": "e18687f51cdb729541a0a65c480975462758012d",
+      "sha256": "65c91866037dc034a64484683ad9a329896786f1487265c9fddecd19b09a3039",
+      "source_url": "https://raw.githubusercontent.com/suboss87/FDEOps/30e3f6c92dadbc013337e7ebdae14087d43bd126/skills/fde/references/poc.md"
+    },
+    {
+      "path": "skills/fde/references/ship.md",
+      "git_blob": "e380e4d722691ea02521d7edbfb687c912f50320",
+      "sha256": "95f51772b29de6f7d174f1f7678f15d46a3a5327dcb8facb94288e27907ae92c",
+      "source_url": "https://raw.githubusercontent.com/suboss87/FDEOps/30e3f6c92dadbc013337e7ebdae14087d43bd126/skills/fde/references/ship.md"
+    },
+    {
+      "path": "skills/fde/references/task-context.md",
+      "git_blob": "ab55930da0497892a4119173fcdb255e66da2e1d",
+      "sha256": "7885c38b6342920b91caf1682fd06e9edd59f15941e96575f168acb95ea4398d",
+      "source_url": "https://raw.githubusercontent.com/suboss87/FDEOps/30e3f6c92dadbc013337e7ebdae14087d43bd126/skills/fde/references/task-context.md"
+    },
+    {
+      "path": "skills/fde/references/three-options.md",
+      "git_blob": "5a583b04f6712c90916e3e878bc115e776891965",
+      "sha256": "2c979027c09af936f9a50446721e344f15e3e3bf43d3c1b7b0b85240747168c4",
+      "source_url": "https://raw.githubusercontent.com/suboss87/FDEOps/30e3f6c92dadbc013337e7ebdae14087d43bd126/skills/fde/references/three-options.md"
+    }
+  ]
+}

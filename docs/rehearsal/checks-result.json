@@ -1,0 +1,137 @@
+{
+  "synthetic": true,
+  "scope": "Arithmetic, cash schedule reconciliation, and synthetic sample classification only; not skill behavior or customer software testing.",
+  "case_a": {
+    "baseline_hours": 42.0,
+    "adverse_hours": 58.0,
+    "baseline_cost": 6000.0,
+    "adverse_cost": 8400.0,
+    "candidate_revenue": 9600,
+    "baseline_profit": 3600.0,
+    "adverse_profit": 1200.0,
+    "baseline_margin_percent": 37.5,
+    "adverse_margin_percent": 12.5,
+    "hours_capacity": 60,
+    "cash_capacity": 1200,
+    "baseline_cash": {
+      "total_outflow": 600.0,
+      "total_receipts": 9600.0,
+      "maximum_funding_required": 240.0,
+      "ending_cash_balance": 9000.0
+    },
+    "adverse_cash": {
+      "total_outflow": 1080.0,
+      "total_receipts": 9600.0,
+      "maximum_funding_required": 1080.0,
+      "ending_cash_balance": 8520.0
+    }
+  },
+  "case_b": {
+    "diagnostic_baseline_cost": 1800,
+    "diagnostic_cap_cost": 2400,
+    "diagnostic_baseline_profit": 1200,
+    "diagnostic_cap_profit": 600,
+    "records_total": 12,
+    "classification_counts": {
+      "ready": 5,
+      "normalized": 2,
+      "missing_code": 1,
+      "unknown_code": 1,
+      "ambiguous_code": 2,
+      "invalid_date": 1
+    },
+    "processable": 7,
+    "review_required": 5,
+    "processable_coverage_percent": 58.3333,
+    "independently_labeled_records": 0,
+    "correctness_percent": null,
+    "rows": [
+      {
+        "id": "B-01",
+        "status": "ready",
+        "resolved_asset": "M-001"
+      },
+      {
+        "id": "B-02",
+        "status": "normalized",
+        "resolved_asset": "M-002"
+      },
+      {
+        "id": "B-03",
+        "status": "normalized",
+        "resolved_asset": "M-003"
+      },
+      {
+        "id": "B-04",
+        "status": "missing_code",
+        "resolved_asset": null
+      },
+      {
+        "id": "B-05",
+        "status": "unknown_code",
+        "resolved_asset": null
+      },
+      {
+        "id": "B-06",
+        "status": "ambiguous_code",
+        "resolved_asset": null
+      },
+      {
+        "id": "B-07",
+        "status": "ready",
+        "resolved_asset": "M-004"
+      },
+      {
+        "id": "B-08",
+        "status": "invalid_date",
+        "resolved_asset": null
+      },
+      {
+        "id": "B-09",
+        "status": "ready",
+        "resolved_asset": "M-002"
+      },
+      {
+        "id": "B-10",
+        "status": "ready",
+        "resolved_asset": "M-003"
+      },
+      {
+        "id": "B-11",
+        "status": "ready",
+        "resolved_asset": "M-004"
+      },
+      {
+        "id": "B-12",
+        "status": "ambiguous_code",
+        "resolved_asset": null
+      }
+    ]
+  },
+  "case_c": {
+    "baseline_hours": 176.0,
+    "adverse_hours": 216.0,
+    "baseline_cost": 41280.0,
+    "adverse_cost": 50080.0,
+    "candidate_revenue": 20000,
+    "baseline_profit": -21280.0,
+    "adverse_profit": -30080.0,
+    "baseline_margin_percent": -106.4,
+    "adverse_margin_percent": -150.4,
+    "hours_capacity": 100,
+    "cash_capacity": 3000,
+    "baseline_cash": {
+      "total_outflow": 8400.0,
+      "total_receipts": 20000.0,
+      "maximum_funding_required": 8400.0,
+      "ending_cash_balance": 11600.0
+    },
+    "adverse_cash": {
+      "total_outflow": 10000.0,
+      "total_receipts": 20000.0,
+      "maximum_funding_required": 10000.0,
+      "ending_cash_balance": 10000.0
+    }
+  },
+  "reconciliation": "completed"
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "purpose": "Design rehearsal arithmetic and sample consistency only; not market rates or software test results.",
+  "case_a": {
+    "hours": [
+      { "item": "discovery", "hours": 4 },
+      { "item": "prototype", "hours": 4 },
+      { "item": "implementation", "hours": 16 },
+      { "item": "testing", "hours": 6 },
+      { "item": "deployment_training", "hours": 4 },
+      { "item": "defect_reserve", "hours": 4 },
+      { "item": "coordination", "hours": 4 }
+    ],
+    "hourly_cost": 120,
+    "cash_cost": 600,
+    "allocated_cost": 360,
+    "candidate_revenue": 9600,
+    "additional_hours": 16,
+    "additional_cash": 480,
+    "hours_capacity": 60,
+    "cash_capacity": 1200,
+    "baseline_cash_events": [
+      { "event": "preparation", "outflow": 240, "receipt": 0 },
+      { "event": "first_payment", "outflow": 0, "receipt": 3840 },
+      { "event": "trial_preparation", "outflow": 240, "receipt": 0 },
+      { "event": "second_payment", "outflow": 0, "receipt": 3840 },
+      { "event": "handover", "outflow": 120, "receipt": 0 },
+      { "event": "final_payment", "outflow": 0, "receipt": 1920 }
+    ],
+    "adverse_cash_events": [
+      { "event": "preparation", "outflow": 240, "receipt": 0 },
+      { "event": "trial_preparation", "outflow": 240, "receipt": 0 },
+      { "event": "handover", "outflow": 120, "receipt": 0 },
+      { "event": "rework", "outflow": 480, "receipt": 0 },
+      { "event": "delayed_collection", "outflow": 0, "receipt": 9600 }
+    ]
+  },
+  "case_b": {
+    "diagnostic_hours": 8,
+    "diagnostic_hours_cap": 12,
+    "hourly_cost": 150,
+    "cash_cost": 600,
+    "candidate_revenue": 3000,
+    "independently_labeled_records": 0,
+    "mappings": [
+      { "raw": "M-001", "asset": "M-001" },
+      { "raw": "M-002", "asset": "M-002" },
+      { "raw": "M003", "asset": "M-003" },
+      { "raw": "M-003", "asset": "M-003" },
+      { "raw": "M-004", "asset": "M-004" },
+      { "raw": "SH-007", "asset": "EAST-007" },
+      { "raw": "SH-007", "asset": "WEST-007" }
+    ],
+    "records": [
+      { "id": "B-01", "asset_code": "M-001", "date": "2031-04-02" },
+      { "id": "B-02", "asset_code": " m-002 ", "date": "2031-04-02" },
+      { "id": "B-03", "asset_code": "M003", "date": "2031-04-03" },
+      { "id": "B-04", "asset_code": "", "date": "2031-04-03" },
+      { "id": "B-05", "asset_code": "X-999", "date": "2031-04-04" },
+      { "id": "B-06", "asset_code": "SH-007", "date": "2031-04-04" },
+      { "id": "B-07", "asset_code": "M-004", "date": "2031-04-05" },
+      { "id": "B-08", "asset_code": "M-001", "date": "2031-04-31" },
+      { "id": "B-09", "asset_code": "M-002", "date": "2031-04-06" },
+      { "id": "B-10", "asset_code": "M-003", "date": "2031-04-06" },
+      { "id": "B-11", "asset_code": "M-004", "date": "2031-04-07" },
+      { "id": "B-12", "asset_code": "SH-007", "date": "2031-04-07" }
+    ]
+  },
+  "case_c": {
+    "hours": [
+      { "item": "discovery", "hours": 16 },
+      { "item": "backend", "hours": 40 },
+      { "item": "frontend", "hours": 24 },
+      { "item": "integration", "hours": 40 },
+      { "item": "testing_deployment", "hours": 24 },
+      { "item": "training_support", "hours": 16 },
+      { "item": "coordination", "hours": 16 }
+    ],
+    "hourly_cost": 180,
+    "cash_cost": 8400,
+    "allocated_cost": 1200,
+    "candidate_revenue": 20000,
+    "additional_hours": 40,
+    "additional_cash": 1600,
+    "hours_capacity": 100,
+    "cash_capacity": 3000,
+    "baseline_cash_events": [
+      { "event": "delivery_before_receipt", "outflow": 8400, "receipt": 0 },
+      { "event": "collection_after_acceptance", "outflow": 0, "receipt": 20000 }
+    ],
+    "adverse_cash_events": [
+      { "event": "delivery_before_receipt", "outflow": 8400, "receipt": 0 },
+      { "event": "rework_before_receipt", "outflow": 1600, "receipt": 0 },
+      { "event": "collection_after_acceptance", "outflow": 0, "receipt": 20000 }
+    ]
+  }
+}
